@@ -20,6 +20,7 @@ export default defineNuxtConfig({
     'vue3-carousel-nuxt',
     '@nuxtjs/seo',
     '@nuxt/image',
+    "@nuxt/icon"
   ],
   tailwindcss: {
     cssPath: ['~/assets/css/tailwind.css', { injectPosition: 'last' }],

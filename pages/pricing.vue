@@ -84,7 +84,7 @@ const grindingPriceList = ref([]);
 
 onMounted(async () => {
   try {
-    const response = await fetch('http://localhost/cennik/fetch_prices.php');
+    const response = await fetch('http://chrenovacie.sk/fetch_prices.php');
     const data = await response.json();
     sandingPriceList.value = data.sandingPrices;
     layingPriceList.value = data.layingPrices;
